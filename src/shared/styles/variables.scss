@@ -1,0 +1,12 @@
+:root[data-theme="light"] {
+    --background-color: #eae6df;
+}
+
+:root[data-theme="dark"] {
+    --background-color: #111b21;
+}
+
+body {
+    background-color: var(--background-color);
+    transition: background-color 200ms linear;
+}
